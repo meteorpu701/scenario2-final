@@ -29,7 +29,7 @@ a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: underline;
     transition: background-color 0.3s;
 }
 
@@ -37,7 +37,9 @@ a:hover {
     background-color: #003d70;
 }
 
-
+h2{
+    margin-left: 60px;
+}
 .content {
     background: white;
     padding: 20px;
@@ -53,11 +55,15 @@ a:hover {
 }
 .informations p {
     white-space: pre-line;
-    background: #f3f3f3;
+    background: #eeeaea;
     padding: 15px;
-    width: 60%;
-    border-radius: 5px;
+    width: 70%;
+    border-radius: 30px;
     font-size: 28px;
+}
+.informations p span{
+    color: blue;
+    text-decoration : underline;
 }
 footer {
     background-color: #005eb8;

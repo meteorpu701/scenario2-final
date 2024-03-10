@@ -29,7 +29,7 @@ a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: underline;
     transition: background-color 0.3s;
 }
 
@@ -40,26 +40,22 @@ a:hover {
 .content-row {
     display: flex;
 }
-.conten-row2{
+.content-row2{
     display: flex;
 }
-.sidebar {
-    margin-right: 0;
-}
-
 .clear {
     clear: both;
 }
 
 .main-content, .sidebar , .leftbar,.main-content2{
     flex: 1; 
-    margin-right: 20px; 
+    margin-right:0; 
 }
 
 .sidebar {
     float: right;
     width: 60%;
-    margin-left: 0;
+    margin-right: 50px;
 }
 
 .sidebar p {
@@ -69,9 +65,7 @@ a:hover {
     font-size: 20px;
 }
 .leftbar{
-    float: left;
     width: 60%;
-    margin-right: 20px;
 }
 .leftbar p{
     background: #f3f3f3;
@@ -85,22 +79,22 @@ a:hover {
     padding: 20px;
     box-sizing: border-box;
     margin-left: 160px;
+    font-size: 30px;
 }
 .main-content {
-    float: left;
     width: 65%;
     padding: 20px;
     box-sizing: border-box;
 }
 .main-content2{
-    float: right;
-    width: 65%;
     padding: 20px;
+    margin-left: 0;
     box-sizing: border-box;
 }
 
 .content-image {
-    width: 400px; 
+    width: 300px;
+    margin-left: 160px;
 }
 
 .container {

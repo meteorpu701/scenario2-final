@@ -8,11 +8,13 @@
 <body>
 <body>
     <div class="header">
-        <img src="nhslogo.jpeg" alt="NHS Logo" class="nhs-logo">
+        <a href = "media.php">
+            <img src="nhslogo.jpeg" alt="NHS Logo" class="nhs-logo" >
+        </a>
         <a href="#">Chat bot</a>
         <a href="whyhelpful.php">Why is this helpful?</a>
         <a href="contact.php">Contact us</a>
-        <a href="login.php">Login</a>
+        <a href="myacc.php">Myaccount</a>
     </div>
     <div class = "front">
             <h2>How Hypnosis Therapy can aid you through your Recovery</h2>
@@ -21,7 +23,7 @@
     <div class="container content">
         <div class="content-row">
             <div class="main-content">
-                <img src="picture.png" alt="Description" class="content-image">
+                <img src="a.png" alt="Description" width=400px>
             </div>
             <div class="sidebar">
                 <p>Hypnosis, proven to enhance medicinal therapy, can boost the efficacy of treatments during a trance state.
@@ -42,7 +44,7 @@
                 Development or other under funded branches. </p>
             </div>
             <div class = "main-content2">
-                <img src="picture2.png" alt="Description" height = 300px;>
+                <img src="picture2.png" alt="Description" class = "content-image">
             </div>
         </div>
         <div class="clear"></div>
